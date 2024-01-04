@@ -1,15 +1,15 @@
 #данные
 lzt_token = 'Bearer ' + 'ваш токен лолза'
-tg_token = 'ваш токен телеграм'
+tg_token = 'ваш токен бота телеграм'
 id_user_lzt = 'ваш айди лолза'
 
 #реквизиты, кошельки
-BTC = 'bc1qnxctf6l97rfxzmxv6h42qkpqg26g4nc5r09x44'
-usdt = 'TKC73SBEo8FUBJSvgpGb7XF6ww7aK5uXjJ'
+BTC = 'ваш btc-кошелёк'
+usdt = 'ваш usdt-кошелёк'
 card = 'ваша карта'
-payment = f'карта - `{card}`\nBTC - `{BTC}`\nusdt(tron20) - `{usdt}`'
+payment = f'карта - `{card}`\nBTC - `{BTC}`\nusdt(tron20) - `{usdt}`' #не трогайте, вдруг сломаете
 
 #контакты
 user = "@ваш_юзернейм"
 github = 'ссылка на профиль гитхаб'
-contacts = f'Telegram - {user}\ngithub - {github}'
+contacts = f'Telegram - {user}\ngithub - {github}' #не трогайте, вдруг сломаете
