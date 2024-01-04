@@ -35,5 +35,6 @@ def send_lessons(message):
 @bot.message_handler(commands=['contacts'])
 def send_lessons(message):
 	bot.reply_to(message, contacts)
-	
+#говнокодик написан
+
 bot.polling()
