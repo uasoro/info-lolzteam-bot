@@ -28,7 +28,7 @@ contacts = f'lolz - {permalink}\n' + contacts
 def send_lessons(message):
 	bot.reply_to(message, info, parse_mode="MARKDOWN")
 
-@bot.message_handler(commands=['payments'])
+@bot.message_handler(commands=['requisites'])
 def send_lessons(message):
 	bot.reply_to(message, payment, parse_mode="MARKDOWN")
 
